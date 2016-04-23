@@ -1,0 +1,115 @@
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+#navHeader {
+    float: right;
+    margin-top: 1px;
+    list-style: none;
+    margin-top: 10px;  
+}
+#nav-bar {
+  background-color: red;
+  height: 40px;
+  color: red ;
+}
+#header{
+  font-size: 85px;
+
+}
+ #lead  {
+  font-size: 45px;
+  position: absolute;
+  
+  padding-top: 100px;
+}
+#header, #lead {
+  float: left;
+  margin-top: -405px;
+  margin-left: 50px;
+  text-align: center;
+
+
+}
+
+.jumbotron {
+  color: blue;
+  background-color: yellow;
+  height: 450px;
+  min-width: 33%;
+  margin-top: 0;
+
+}
+.jumbotron2 {
+  color: red;
+  background-color: blue;
+  height: 450px;
+  min-width: 33%;
+  margin-top: 0;
+}
+.jumbotron3 {
+  color: black;
+  background-color: red;
+  height: 450px;
+  min-width: 33%;
+  margin-top: 0;
+}
+
+
+
+/*ul {
+    float: right;
+    margin-top: 1px;
+    list-style: none;
+    margin-top: 10px;  
+}*/
+ 
+li {float: left;
+    margin-right: 20px;
+    color: solid #ffffff;
+    list-style: none;
+  
+  }
+ 
+body {
+  font-family: raleway;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  margin: 0;
+
+}
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+.title {
+  float: left;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.footer {
+  float: right;
+}
+
+.clouds {
+  margin-right: 100px;
+  text-align: left;
+  float: left;
+  margin-left: 10px;
+}
+
