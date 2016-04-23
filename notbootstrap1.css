@@ -8,45 +8,68 @@ a:hover, a:visited, a:link, a:active
     margin-top: 1px;
     list-style: none;
     margin-top: 10px;  
-}
+
+  }
+
 #nav-bar {
-  background-color: red;
+  background-color: #dddddd;
   height: 40px;
   color: red ;
+  float: left;
+  min-width: 100%;
+  
 }
 #header{
   font-size: 85px;
+  padding: 0;
+  float: center;
+  text-align: center;
+  padding:  0;
+  margin-bottom: 0;
 
 }
  #lead  {
-  font-size: 45px;
-  position: absolute;
-  
-  padding-top: 100px;
-}
-#header, #lead {
-  float: left;
-  margin-top: -405px;
-  margin-left: 50px;
+  font-size: 35px;
+  padding: 0;
+  float: center;
   text-align: center;
-
-
+  margin-top: 1px;
 }
 
 .jumbotron {
-  color: blue;
-  background-color: yellow;
-  height: 450px;
-  min-width: 33%;
-  margin-top: 0;
-
+ /*color: blue;*/
+  /*background-color: none;*/
+  /*height: 450px;*/
+  /*min-width: 100%;*/
+  /*margin-top: 0;*/
+  /*float:  left;*/
 }
+
+img {
+  width: 100%;
+  float: left;
+  margin-top: -257px;
+}
+
+
+button {
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10%;
+}
+
+#links {
+ float: center;
+}
+
 .jumbotron2 {
   color: red;
   background-color: blue;
   height: 450px;
   min-width: 33%;
   margin-top: 0;
+  float: left;
+  min-width: 100%;
 }
 .jumbotron3 {
   color: black;
@@ -54,6 +77,8 @@ a:hover, a:visited, a:link, a:active
   height: 450px;
   min-width: 33%;
   margin-top: 0;
+  float: left;
+  min-width: 100%;
 }
 
 
@@ -106,10 +131,10 @@ a:active {
   float: right;
 }
 
-.clouds {
+/*.clouds {
   margin-right: 100px;
   text-align: left;
   float: left;
   margin-left: 10px;
-}
+}*/
 
